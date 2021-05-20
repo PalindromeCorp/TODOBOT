@@ -1,0 +1,30 @@
+hash: 8898afa4ad73be6e8bef8e1cf8e4da56112b2d98b2a03b3c06fa3d0140611148
+updated: 2021-05-20T16:22:39.488308526+07:00
+imports:
+- name: github.com/bwmarrin/discordgo
+  version: c27ad65527ecbc264c674cd3d0e85bb09de942e3
+- name: github.com/gorilla/websocket
+  version: e8629af678b7fe13f35dff5e197de93b4148a909
+- name: github.com/joho/godotenv
+  version: 23d116af351c84513e1946b527c88823e476be13
+- name: github.com/sirupsen/logrus
+  version: bdc0db8ead3853c56b7cd1ac2ba4e11b47d7da6b
+- name: go.mongodb.org/mongo-driver
+  version: 6147f9f8f2ce9312a7c3e8e050c3258f9370e180
+  subpackages:
+  - mongo
+- name: golang.org/x/crypto
+  version: c07d793c2f9aacf728fe68cbd7acd73adbd04159
+  subpackages:
+  - internal/subtle
+  - nacl/secretbox
+  - poly1305
+  - salsa20/salsa
+- name: golang.org/x/sys
+  version: e8d321eab015fdac193488ca80676aafc248f81d
+  subpackages:
+  - cpu
+  - internal/unsafeheader
+  - unix
+  - windows
+testImports: []
